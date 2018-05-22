@@ -1,17 +1,18 @@
 {
   "pages":[
     "pages/index/index",
+    "pages/detail/detail",
     "pages/join/join",
     "pages/logs/logs"
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#ccc",
-    "navigationBarTitleText": "微信小程序",
-    "navigationBarTextStyle":"black"
+    "navigationBarBackgroundColor": "#ff8dcb",
+    "navigationBarTitleText": "小小书城",
+    "navigationBarTextStyle":"#fff"
   },
   "tabBar": {
-    "selectedColor": "green",
+    "selectedColor": "#ff8dcb",
     "list": [{
       "pagePath": "pages/index/index",
       "text": "首页",
@@ -23,6 +24,7 @@
       "text": "加入",
       "iconPath": "images/icon_join.png",
       "selectedIconPath": "images/icon_join_pressed.png"
-    }]
+    }
+    ]
   }
 }

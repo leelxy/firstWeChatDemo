@@ -4,16 +4,16 @@
 		"ignore": []
 	},
 	"setting": {
-		"urlCheck": true,
+		"urlCheck": false,
 		"es6": true,
 		"postcss": true,
 		"minified": true,
 		"newFeature": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "1.9.98",
-	"appid": "touristappid",
-	"projectname": "wechatFirst",
+	"libVersion": "2.0.6",
+	"appid": "wx0db952f4cdaaec0d",
+	"projectname": "myfirst",
 	"condition": {
 		"search": {
 			"current": -1,
@@ -33,7 +33,14 @@
 		},
 		"miniprogram": {
 			"current": -1,
-			"list": []
+			"list": [
+				{
+					"id": -1,
+					"name": "join",
+					"pathName": "pages/join/join",
+					"query": ""
+				}
+			]
 		}
 	}
 }

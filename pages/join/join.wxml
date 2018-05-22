@@ -1,2 +1,20 @@
-<!--pages/join/join.wxml-->
-<text>pages/join/join.wxml</text>
+<image class="banner" src="/images/about.jpg"></image>
+
+<view class='block'>
+  <view class='block-title'>关于我们</view>
+  <text class='block-desc'>fsfsdffsdf</text>
+</view>
+
+<view class='block'>
+  <view class='block-title'>商业合作</view>
+  <text class='block-desc'>fsfsdffsdf</text>
+</view>
+
+<view class='block'>
+  <view class='block-title'>联系我们</view>
+  <text class='block-desc'>fsfsdffsdf</text>
+</view>
+
+<view>
+  <button bindtap='makePhone'>打电话</button>
+</view>
