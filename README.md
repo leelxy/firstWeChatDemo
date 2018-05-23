@@ -35,4 +35,8 @@
     
 ### 项目截图
 #### 首页
-[a](https://github.com/leelxy/firstWeChatDemo/blob/master/images/index.gif)
+![image](https://github.com/leelxy/firstWeChatDemo/blob/master/images/index.gif)
+#### 详情页
+![image](https://github.com/leelxy/firstWeChatDemo/blob/master/images/detail.png)
+#### 加入页
+![image](https://github.com/leelxy/firstWeChatDemo/blob/master/images/join.png)
