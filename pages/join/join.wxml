@@ -1,20 +1,16 @@
-<image class="banner" src="/images/about.jpg"></image>
+<image class="banner" src="/images/about.png"></image>
 
 <view class='block'>
   <view class='block-title'>关于我们</view>
-  <text class='block-desc'>fsfsdffsdf</text>
+  <text class='block-desc'>免费提供精选小说全文免费阅读，书城精选小说免费阅读。</text>
 </view>
 
 <view class='block'>
   <view class='block-title'>商业合作</view>
-  <text class='block-desc'>fsfsdffsdf</text>
+  <text class='block-desc'>创新娱乐 尽享生活</text>
 </view>
 
 <view class='block'>
   <view class='block-title'>联系我们</view>
-  <text class='block-desc'>fsfsdffsdf</text>
-</view>
-
-<view>
-  <button bindtap='makePhone'>打电话</button>
+  <text class='block-desc' bindtap='makePhone'>1881178****</text>
 </view>

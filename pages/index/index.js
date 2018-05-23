@@ -16,23 +16,23 @@ Page({
     proList: [
       {
         "title": "《你的孤独，虽败犹荣》",
-        "desc": "孤独之前是迷茫，孤独之后是成长。",
-        "logo": "http://guozhaoxi.top/wx/gelifen.jpg"
+        "desc": "孤独之前是迷茫，孤独之后是成长。很长一段日子里，我靠写东西度过了太多的小无聊，伪伤感，假满足与真茫然...",
+        "logo": "/images/pic1.jpg"
       },
       {
         "title": "《解忧杂货店》",
-        "desc": "现代人内心流失的东西，这家杂货店能帮你找回",
-        "logo": "http://guozhaoxi.top/wx/gelifen.jpg"
+        "desc": "现代人内心流失的东西，这家杂货店能帮你找回。僻静的街道旁有一家杂货店，只要写下烦恼投进卷帘门的投信口...",
+        "logo": "/images/pic2.jpg"
       },
       {
         "title": "《把时间当作朋友》",
-        "desc": "这本书从心智成长的角度来谈时间管理，指出时间管理是成功的关键所在。",
-        "logo": "http://guozhaoxi.top/wx/gelifen.jpg"
+        "desc": "为什么你总是说“没有时间了”，勤奋而又懒惰？最节省时间的方式是学习，为什么你砍柴而不肯磨刀？基于过程的记录...",
+        "logo": "/images/pic3.jpg"
       },
       {
         "title": "《你的生命有什么可能》",
-        "desc": "即使在这个不那么公平的现实世界里，每个平凡人也都能活出各自的生命可能。",
-        "logo": "http://guozhaoxi.top/wx/gelifen.jpg"
+        "desc": "即使在这个不那么公平的现实世界里，每个平凡人也都能活出各自的生命可能。本书写给成长中的每一个人，以生涯之学...",
+        "logo": "/images/pic4.jpg"
       }
     ]
   },
@@ -40,26 +40,27 @@ Page({
     this.getProList();
   },
   toDetail: function(e){
-    console.log(e);
+    //console.log(e);
     var index = e.currentTarget.dataset.index;
     var proList = this.data.proList;
     var title = proList[index].title;
+    wx.setStorageSync('index', index);
+    wx.setStorageSync('title', title);
     wx.navigateTo({
-      url: '/pages/detail/detail'+title,
+      url: '/pages/detail/detail',
     })
-    console.log(title);
   },
   getProList: function(){
     var self = this;
-    // wx.request({
-    //   url: 'http://guozhaoxi.top/wx/data.json',
-    //   method: 'GET',
-    //   success: function(res){
-    //     self.setData({
-    //       proList: res.data
-    //     });
-    //   }
-    // })
+    //wx.request({
+      // url: 'http://guozhaoxi.top/wx/data.json',
+      // method: 'GET',
+      // success: function(res){
+      //   self.setData({
+      //     proList: res.data
+      //   });
+      // }
+    //})
   },
   copy: function(){
     if(wx.setClipboardData){

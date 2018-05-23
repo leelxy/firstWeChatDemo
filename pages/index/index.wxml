@@ -14,6 +14,9 @@
     <image class='pro-logo' src='{{item.logo}}'></image> 
     <!--  右侧内容 -->
     <view class='pro-body'> 
+    .
+
+
       <view class='pro-title'>{{item.title}}</view>
       <text class='pro-desc'>{{item.desc}}</text>
       <view class='pro-footer'>

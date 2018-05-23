@@ -8,9 +8,6 @@ swiper image{
   display: block;
 }
 /*  items-list  */
-.items-list{
-
-}
 .pro-item{
   overflow: hidden;
   padding: 30rpx;
@@ -18,7 +15,7 @@ swiper image{
 .pro-logo{
   float: left;
   width: 190rpx;
-  height: 190rpx;
+  height: 266rpx;
 }
 .pro-body{
   margin-left: 200rpx;
@@ -35,6 +32,7 @@ swiper image{
 }
 .pro-footer{
   overflow: hidden;
+  margin-top:18rpx;
 }
 .btn-detail{
   float: left;

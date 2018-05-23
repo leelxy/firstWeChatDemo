@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    
   },
   
   /**
@@ -17,7 +17,7 @@ Page({
 
   makePhone: function () {
     wx.makePhoneCall({
-      phoneNumber: '18811783367' //仅为示例，并非真实的电话号码
+      phoneNumber: '18811783367'
     })
   }
 

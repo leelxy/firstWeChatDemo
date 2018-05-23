@@ -1,1 +1,12 @@
 /* pages/detail/detail.wxss */
+
+page{
+  color: #333;
+  margin: 3rpx;
+}
+.detail-title{
+  font-size: 34rpx;
+}
+.detail-desc{
+  font-size: 30rpx;
+}

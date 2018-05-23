@@ -1,2 +1,3 @@
 <!--pages/detail/detail.wxml-->
-<text>pages/detail/detail.wxml</text>
+<view class='detail-title'>简介：</view>
+<text class='detail-desc'>{{desc}}</text>
