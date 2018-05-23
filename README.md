@@ -37,6 +37,6 @@
 #### 首页
 ![image](https://github.com/leelxy/firstWeChatDemo/blob/master/images/index.gif)
 #### 详情页
-![image](https://github.com/leelxy/firstWeChatDemo/blob/master/images/detail.png)
+![image](https://github.com/leelxy/firstWeChatDemo/blob/master/images/detail.jpg)
 #### 加入页
-![image](https://github.com/leelxy/firstWeChatDemo/blob/master/images/join.png)
+![image](https://github.com/leelxy/firstWeChatDemo/blob/master/images/join.jpg)
