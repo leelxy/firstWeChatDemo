@@ -1,3 +1,5 @@
 <!--pages/detail/detail.wxml-->
-<view class='detail-title'>简介：</view>
-<text class='detail-desc'>{{desc}}</text>
+<view class='detail-wrap'>
+  <view class='detail-title'>简介：</view>
+  <text class='detail-desc'>{{desc}}</text>
+</view>

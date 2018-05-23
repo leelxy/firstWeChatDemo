@@ -4,9 +4,14 @@ page{
   color: #333;
   margin: 3rpx;
 }
+.detail-wrap{
+  margin: 18rpx;
+}
 .detail-title{
   font-size: 34rpx;
+  color: #888888;
 }
 .detail-desc{
   font-size: 30rpx;
+  color: #ff8dcb;
 }
